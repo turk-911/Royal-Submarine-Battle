@@ -28,6 +28,7 @@ export interface SubmarineSelectionProps {
         id: string;
         length: number;
         count: number;
+        name: string;
     }[];
     onSelect: (submarine: Submarine) => void;
     selectedSubmarine: Submarine | null;
