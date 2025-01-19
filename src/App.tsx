@@ -1,5 +1,6 @@
 import GamePlay from "./components/GamePlay";
 import './App.css'
+import HowToPlay from "./components/HowToPlay";
 
 function App() {
   return (

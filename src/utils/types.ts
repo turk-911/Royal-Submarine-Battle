@@ -22,6 +22,7 @@ export interface GameBoardProps {
     onCellClick?: (row: number, col: number) => void;
     showSubmarine: boolean;
     orientation: 'horizontal' | 'vertical';
+    gamePhase: GamePhase;
 };
 export interface SubmarineSelectionProps {
     submarines: {
