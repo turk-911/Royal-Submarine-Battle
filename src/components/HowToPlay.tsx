@@ -19,7 +19,7 @@ const HowToPlay = () => {
     }
   ];
 
-  const toggleItem = (index) => {
+  const toggleItem = (index: any) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
